@@ -58,6 +58,8 @@ import { A01_Homepage, A02_Menu, A03_Product } from './a01-a03';
 import { A04_Cart, A05_Checkout, A06_PaymentResult, A07_OrderTracking, A08_OrderHistory } from './a04-a08';
 import { A09_Profile, A10_Auth, A11_Forgot, A13_Chatbot } from './a09-a13';
 import { A12_CakeBuilder } from './a12';
+import { A14_About } from './a14';
+import { A15_Branches } from './a15';
 
 // Admin / Staff screens
 import { B01_Dashboard, B02_Orders, B03_Products, B04_Categories } from './b01-b04';
@@ -79,6 +81,12 @@ function App() {
         </DCArtboard>
         <DCArtboard id="A03" label="A03 · Chi tiết sản phẩm" width={W} height="auto">
           <A03_Product />
+        </DCArtboard>
+        <DCArtboard id="A14" label="A14 · Về chúng tôi" width={W} height="auto">
+          <A14_About />
+        </DCArtboard>
+        <DCArtboard id="A15" label="A15 · Chi nhánh" width={W} height="auto">
+          <A15_Branches />
         </DCArtboard>
       </DCSection>
 
